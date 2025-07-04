@@ -1,16 +1,43 @@
-<<<<<<< HEAD
-# TravelLore_Case_Study
-=======
-# React + Vite
+# ✈️ TravelLore – UX Case Study Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site 👉 [https://travellore-case-study.vercel.app](https://travellore-case-study.vercel.app)
 
-Currently, two official plugins are available:
+A storytelling case study website that documents the user experience process of TravelLore – a concept travel app focused on **self-discovery and solo-travel safety** for Gen Z. This site showcases research, personas, problems, journey, screens, and more in a clean, responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 33e11f8 (Initial commit: added TravelLore case study assets and files)
+![TravelLore Preview](./src/assets/screen1.png)
+
+---
+
+## 📁 Sections Covered
+
+- 🌟 Hero / Header
+- 👥 Team Introduction
+- 🧩 Problem Statement
+- ✈️ User Journey
+- 🔬 Research & Personas
+- 📊 Analysis (Affinity Map, Empathy Map, User Flow)
+- 📱 Screens Showcase
+- 📝 Final Thoughts & CTA
+
+---
+
+## ⚙️ Tech Stack
+
+- React.js (Vite)
+- HTML / CSS (Custom, responsive)
+- Vercel (Deployment)
+- Git & GitHub (Version Control)
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/imshivraj101/TravelLore_Case_Study.git
+cd TravelLore_Case_Study
+npm install
+npm run dev
