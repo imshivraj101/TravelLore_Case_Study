@@ -1,11 +1,13 @@
 // src/components/Problem.jsx
 import './Problem.css';
+import thinkingImg from '../assets/thinking.png';
+import mockupImg from '../assets/mockup.png';
 
 function Problem() {
   return (
     <section className="problem-section">
       <div className="problem-content">
-        <img src="src/assets/thinking.png" alt="Problem Visual" className="problem-image thinking-img" />
+        <img src={thinkingImg} alt="Problem Visual" className="problem-image thinking-img" />
 
         <div className="problem-text">
           <h2 className="problem-heading">Problem Statement</h2>
@@ -19,7 +21,7 @@ function Problem() {
       </div>
 
       <h2 className="solution-heading">Crafted Solution</h2>
-      <img src="src/assets/mockup.png" alt="Crafted Solution Screens" className="solution-image mockup-img" />
+      <img src={mockupImg} alt="Crafted Solution Screens" className="solution-image mockup-img" />
     </section>
   );
 }

@@ -1,5 +1,7 @@
 // src/components/Analysis.jsx
 import './Analysis.css';
+import bchartImg from '../assets/Bchart.png';
+import userflowImg from '../assets/user-flow.png';
 
 function Analysis() {
   return (
@@ -17,13 +19,13 @@ function Analysis() {
       {/* Brainstorming Table */}
       <div className="brainstorm-box">
         <h2>Brainstorming & Ideation</h2>
-        <img src="src/assets/Bchart.png" alt="Brainstorming Table" className="brainstorm-img" />
+        <img src={bchartImg} alt="Brainstorming Table" className="brainstorm-img" />
       </div>
 
       {/* Userflow */}
       <div className="userflow-box">
         <h2>Userflow</h2>
-        <img src="src/assets/user-flow.png" alt="Userflow Diagram" className="userflow-img" />
+        <img src={userflowImg} alt="Userflow Diagram" className="userflow-img" />
       </div>
     </section>
   );

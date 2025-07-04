@@ -1,5 +1,8 @@
 // src/components/Research.jsx
 import './Research.css';
+import chart1 from '../assets/chart-1.png';
+import chart2 from '../assets/chart-2.png';
+import personaAnanya from '../assets/persona-ananya.png';
 
 function Research() {
   return (
@@ -17,17 +20,17 @@ function Research() {
       <div className="research-charts">
         <h3 className="charts-title">Research</h3>
         <div className="chart">
-          <img src="src/assets/chart-1.png" alt="Top 5 worries" />
+          <img src={chart1} alt="Top 5 worries" />
         </div>
         <div className="chart">
-          <img src="src/assets/chart-2.png" alt="Stress timeline" />
+          <img src={chart2} alt="Stress timeline" />
         </div>
       </div>
 
       {/* User Persona */}
       <div className="persona-section">
         <h3>User Persona</h3>
-        <img src="src/assets/persona-ananya.png" alt="Ananya Mehta Persona" className="persona-image" />
+        <img src={personaAnanya} alt="Ananya Mehta Persona" className="persona-image" />
       </div>
     </section>
   );

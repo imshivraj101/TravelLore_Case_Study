@@ -1,5 +1,7 @@
 // src/components/Team.jsx
 import './Team.css';
+import shivrajImg from '../assets/shivraj.jpeg';
+import omImg from '../assets/om.jpeg';
 
 function Team() {
   return (
@@ -9,7 +11,7 @@ function Team() {
       <div className="team-members">
         <div className="team-member">
           <a href="https://www.linkedin.com/in/shivraj-talekar-259099336/" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/shivraj.jpeg" alt="Shivraj Talekar" className="team-photo" />
+            <img src={shivrajImg} alt="Shivraj Talekar" className="team-photo" />
             <h3 className="member-name">Shivraj Talekar</h3>
           </a>
           <p className="member-role">UI/UX  Research &<br />Conceptualization</p>
@@ -17,7 +19,7 @@ function Team() {
 
         <div className="team-member">
           <a href="https://www.linkedin.com/in/ombirla/" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/om.jpeg" alt="Om Birla" className="team-photo" />
+            <img src={omImg} alt="Om Birla" className="team-photo" />
             <h3 className="member-name">Om Birla</h3>
           </a>
           <p className="member-role">UI/UX  Research &<br />Prototyping</p>
