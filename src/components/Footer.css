@@ -1,0 +1,35 @@
+/* Footer Styles */
+.footer-section {
+  background: #01223B;
+  color: #fff;
+  padding: 3rem 2rem 0 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.footer-block {
+  max-width: 900px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  color: #d6dbe1;
+  line-height: 1.7;
+}
+
+.footer-thanks {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 3rem 0 0 0;
+  padding: 2rem 0 1rem 0;
+  border-top: 1px solid #2a3b4d;
+  letter-spacing: 0.5px;
+}

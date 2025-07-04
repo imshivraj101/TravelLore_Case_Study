@@ -1,0 +1,67 @@
+/* src/components/Research.css */
+
+.research-section {
+  background-color: #01223B;
+  color: white;
+  padding: 2rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.research-mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.research-mission p {
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  color: #ccc;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.research-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.research-charts h3{
+  font-size: 32px;
+}
+
+.chart img {
+  max-width: 800px;
+  width: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s cubic-bezier(0.4,0.2,0.2,1), box-shadow 0.2s cubic-bezier(0.4,0.2,0.2,1);
+}
+
+.chart img:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18);
+  z-index: 2;
+}
+
+.persona-section h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.persona-image {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  transition: transform 0.2s cubic-bezier(0.4,0.2,0.2,1), box-shadow 0.2s cubic-bezier(0.4,0.2,0.2,1);
+}
+
+.persona-image:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18);
+  z-index: 2;
+}

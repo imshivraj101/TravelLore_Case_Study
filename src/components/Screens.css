@@ -1,0 +1,23 @@
+.screens-section {
+  background-color: #01223B;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.screens-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.screens-image-wrapper {
+  margin-bottom: 3rem;
+}
+
+.screens-image-wrapper img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}

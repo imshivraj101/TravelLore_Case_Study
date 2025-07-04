@@ -1,0 +1,57 @@
+/* src/components/Problem.css */
+
+.problem-section {
+  background-color: #01223B;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.problem-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+}
+
+.problem-image {
+  width: 350px;
+  max-width: 90vw;
+}
+
+.problem-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.problem-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.problem-para {
+  font-size: 1.1rem;
+  color: #cccccc;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Solution */
+.solution-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.solution-image {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  margin: 0 auto;
+}
+
